@@ -1,0 +1,43 @@
+name: flutter_application_1
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #icon
+  ionicons: ^0.1.2
+  cupertino_icons: ^1.0.2
+  #state management
+  flutter_bloc: ^8.1.4
+  #comparing dart objects
+  equatable: ^2.0.5
+  #service locator
+  get_it: ^7.6.7
+  #date format
+  intl: ^0.19.0
+  #Data base
+  floor: ^1.4.2
+  #make request to api
+  retrofit: ^4.1.0
+  #
+  flutter_hooks: ^0.20.5
+  #cached image
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  retrofit_generator: ^8.1.0
+  floor_generator: ^1.4.2
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
